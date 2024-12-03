@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-area{
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    width:450px;  
+}
+
+.cell{
+    height:150px;
+    width:150px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    line-height: 150px;
+    font-size: 3rem;
+}
+
+.game-container{
+    padding-left: 20px;
+}
+
+p,button{
+    margin-left:210px;
+}
+
+h1{
+    text-align: center;
+}
